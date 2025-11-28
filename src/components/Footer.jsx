@@ -8,8 +8,8 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
           {/* Left - Name and Title */}
           <div className="text-center md:text-left">
-            <h2 className="text-2xl md:text-4xl text-white font-bold mb-2">Cynthia</h2>
-            <p className="text-[#A8C5B8]">Technical Support | Fintech</p>
+            <h2 className="text-2xl md:text-4xl text-white font-bold mb-2">Lynette</h2>
+            <p className="text-[#A8C5B8]">Kiswahili Teacher</p>
           </div>
 
           {/* Center - Navigation Links */}
@@ -63,7 +63,7 @@ function Footer() {
         {/* Bottom - Copyright */}
         <div className="text-center pt-8 border-t border-[#6B8E7F]">
           <p className="text-[#A8C5B8] text-sm">
-            © cynthiamumbua. All rights reserved.
+            © lynettekaluki. All rights reserved.
           </p>
         </div>
       </div>

@@ -37,10 +37,10 @@ function Skills() {
       <div className="max-w-4xl mx-auto">
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2C3E3A] mb-3">
-          Skills
+          Services
         </h2>
         <p className="text-center text-[#5F6C67] mb-12 md:mb-16">
-          My technical level
+          What I Offer
         </p>
 
         {/* Skills Container */}

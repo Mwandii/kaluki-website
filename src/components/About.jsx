@@ -13,7 +13,7 @@ function About() {
           <div className="w-full  flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <img
-                src="/Images/cynthia2.jpeg"
+                src="/Images/about.jpg"
                 alt="Developer illustration"
                 className="w-full h-full object-cover rounded-2xl shadow-[0_8px_24px_#6B8E7F26]"
               />
@@ -23,15 +23,11 @@ function About() {
           {/* Text Content */}
           <div className="w-full md:w-1/2 flex flex-col space-y-6">
             <p className="text-base  text-[#5F6C67] leading-relaxed">
-              Experienced in delivering technical support and building modern web 
-              applications. Skilled in troubleshooting, system maintenance, and 
-              full-stack development, with a focus on providing reliable solutions.
+              Experienced in integrating educational technology and delivering dynamic instruction. Skilled in student engagement, lesson development, and classroom innovation to support productive and inclusive learning.
             </p>
             
             <p className="text-base text-[#5F6C67] leading-relaxed">
-              I am passionate about creating seamless user experiences and solving 
-              complex technical challenges. With a strong foundation in both frontend 
-              and backend technologies, I bring ideas to life through clean, efficient code.
+              I enjoy empowering learners to explore new ideas and develop essential skills for the future. With expertise in modern teaching tools and personalized learning strategies, I help students grow academically and build real-world competencies.
             </p>
 
             {/* CV Download Button */}

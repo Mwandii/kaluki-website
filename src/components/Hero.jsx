@@ -37,14 +37,14 @@ function Hero() {
           {/* Text content */}
           <div className="text-center md:text-left">
             <h1 className="text-3xl md:text-5xl font-bold mb-2 text-[#2C3E3A]">
-              Hi I'm Cynthia
+              Hi I'm Lynette
             </h1>
             <h2 className="text-sm md:text-base text-[#5F6C67] font-semibold mb-5">
-              Technical Support | Fintech
+              Kiswahili Teacher
             </h2>
             <p className="text-sm md:text-base text-[#5F6C67] mb-6 leading-relaxed max-w-md">
-             I am a tech support engineer with a fintech background, focused on keeping systems reliable by troubleshooting issues, monitoring performance, and supporting both cloud and on-prem applications. I work across databases, Linux environments, and modern monitoring tools, and I enjoy building user-friendly web experiences with HTML, CSS, Javascript, Wordpress, Node.js, Vue.js, and Java. I love solving problems, improving performance and creating clean, functional digital solutions.
-            </p>
+             I am an experienced educator with a passion for inspiring students and helping them grow academically and personally. I specialize in designing effective learning environments, delivering engaging lessons, and supporting diverse learning needs both in the classroom and beyond. I work across curriculum planning, student assessment, classroom management, and educational technology, and I enjoy integrating digital tools to make learning more interactive and impactful. I love empowering students, improving learning outcomes, and creating a positive, supportive educational experience for every learner.
+             </p>
             <button 
             onClick={() => document.getElementById("contact")?.scrollIntoView({behavior: "smooth"})}
              className="bg-[#6B8E7F] text-white px-7 py-4 rounded-full font-medium hover:bg-[#4A6B5E] cursor-pointer hover:shadow-md hover:-translate-y-1 shadow-[#A8C5B8] transition-colors inline-flex items-center gap-2">
@@ -61,7 +61,7 @@ function Hero() {
           <div className="relative">
             <div className="bg-[#6B8E7F] shadow-[0_8px_24px_#00000025] rounded-full w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 overflow-hidden">
               <img
-                src="/Images/cynthia1.jpeg"
+                src="/Images/hero.jpg"
                 alt="Cynthia"
                 className="w-full h-full object-cover"
               />

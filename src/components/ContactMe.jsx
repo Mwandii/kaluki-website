@@ -27,7 +27,7 @@ function ContactMe() {
                 href="tel:+254793758835" 
                 className="text-base text-[#5F6C67]"
               >
-                +254-704-207-486
+                +254-740-962-074
               </a>
             </div>
           </div>
@@ -47,7 +47,7 @@ function ContactMe() {
                 href="mailto:muindetuva@gmail.com" 
                 className="text-base text-[#5F6C67] break-all"
               >
-                cynmumbua@gmail.com
+                lynettekaluki@gmail.com
               </a>
             </div>
           </div>
