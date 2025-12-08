@@ -12,7 +12,7 @@ function Hero() {
               href="https://www.linkedin.com/in/cynthia-muinde/"
               target="_blank"
               rel="noreferrer"
-              className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors"
+              className="text-gray-500 hover:text-black transition-colors"
             >
               <FaLinkedin />
             </a>
@@ -20,7 +20,7 @@ function Hero() {
               href="https://x.com/CyntiaMumbua"
               target="_blank"
               rel="noreferrer"
-              className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors"
+              className="text-gray-500 hover:text-black transition-colors"
             >
               <FaTwitter />
             </a>
@@ -28,7 +28,7 @@ function Hero() {
               href="https://github.com/cynmumbua"
               target="_blank"
               rel="noreferrer"
-              className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors"
+              className="text-gray-500 hover:text-black transition-colors"
             >
               <FaGithub />
             </a>
@@ -36,18 +36,18 @@ function Hero() {
 
           {/* Text content */}
           <div className="text-center md:text-left">
-            <h1 className="text-3xl md:text-5xl font-bold mb-2 text-[#2C3E3A]">
+            <h1 className="text-3xl md:text-5xl font-bold mb-2 text-black">
               Hi I'm Lynette
             </h1>
-            <h2 className="text-sm md:text-base text-[#5F6C67] font-semibold mb-5">
+            <h2 className="text-sm md:text-base text-gray-700 font-semibold mb-5">
               Kiswahili Teacher
             </h2>
-            <p className="text-sm md:text-base text-[#5F6C67] mb-6 leading-relaxed max-w-md">
+            <p className="text-sm md:text-base text-gray-500 mb-6 leading-relaxed max-w-md">
              I am an experienced educator with a passion for inspiring students and helping them grow academically and personally. I specialize in designing effective learning environments, delivering engaging lessons, and supporting diverse learning needs both in the classroom and beyond. I work across curriculum planning, student assessment, classroom management, and educational technology, and I enjoy integrating digital tools to make learning more interactive and impactful. I love empowering students, improving learning outcomes, and creating a positive, supportive educational experience for every learner.
              </p>
             <button 
             onClick={() => document.getElementById("contact")?.scrollIntoView({behavior: "smooth"})}
-             className="bg-[#6B8E7F] text-white px-7 py-4 rounded-full font-medium hover:bg-[#4A6B5E] cursor-pointer hover:shadow-md hover:-translate-y-1 shadow-[#A8C5B8] transition-colors inline-flex items-center gap-2">
+             className="bg-black text-white px-7 py-4 rounded-full font-medium hover:bg-gray-600 cursor-pointer hover:shadow-md hover:-translate-y-1 shadow-gray-600 transition-colors inline-flex items-center gap-2">
               Contact Me
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -59,10 +59,10 @@ function Hero() {
         {/* Right side: Profile image */}
         <div className="shrink-0">
           <div className="relative">
-            <div className="bg-[#6B8E7F] shadow-[0_8px_24px_#00000025] rounded-full w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 overflow-hidden">
+            <div className="bg-black shadow-[0_8px_24px_#00000025] rounded-full w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 overflow-hidden">
               <img
-                src="/Images/hero.jpg"
-                alt="Cynthia"
+                src="https://images.unsplash.com/photo-1633419798503-0b0c628f267c?w=400"
+                alt="Lynette"
                 className="w-full h-full object-cover"
               />
             </div>

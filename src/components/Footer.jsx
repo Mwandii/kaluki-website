@@ -2,27 +2,27 @@
 
 function Footer() {
   return (
-    <footer className="bg-[#2C3E3A] text-white py-12 md:py-16">
+    <footer className="bg-black text-white py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-24">
         {/* Main Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
           {/* Left - Name and Title */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl md:text-4xl text-white font-bold mb-2">Lynette</h2>
-            <p className="text-[#A8C5B8]">Kiswahili Teacher</p>
+            <p className="text-gray-500">Kiswahili Teacher</p>
           </div>
 
           {/* Center - Navigation Links */}
           <nav className="flex flex-wrap justify-center gap-6 md:gap-8">
             <a 
               href="#skills" 
-              className="text-[#A8C5B8] hover:text-white transition-colors"
+              className="text-gray-500 hover:text-white transition-colors"
             >
               Skills
             </a>
             <a 
               href="#contact" 
-              className="text-[#A8C5B8] hover:text-white transition-colors"
+              className="text-gray-500 hover:text-white transition-colors"
             >
               Contact
             </a>
@@ -34,7 +34,7 @@ function Footer() {
               href="https://www.linkedin.com/in/cynthia-muinde/"
               target="_blank"
               rel="noreferrer"
-              className="text-[#A8C5B8] hover:text-white transition-colors"
+              className="text-gray-500 hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               <FaLinkedin />
@@ -43,7 +43,7 @@ function Footer() {
               href="https://x.com/CyntiaMumbua"
               target="_blank"
               rel="noreferrer"
-              className="text-[#A8C5B8] hover:text-white transition-colors"
+              className="text-gray-500 hover:text-white transition-colors"
               aria-label="Twitter"
             >
               <FaTwitter />
@@ -52,7 +52,7 @@ function Footer() {
               href="https://github.com/cynmumbua"
               target="_blank"
               rel="noreferrer"
-              className="text-[#A8C5B8] hover:text-white transition-colors"
+              className="text-gray-500 hover:text-white transition-colors"
               aria-label="GitHub"
             >
               <FaGithub />
@@ -61,8 +61,8 @@ function Footer() {
         </div>
 
         {/* Bottom - Copyright */}
-        <div className="text-center pt-8 border-t border-[#6B8E7F]">
-          <p className="text-[#A8C5B8] text-sm">
+        <div className="text-center pt-8 border-t border-gray-500">
+          <p className="text-gray-500 text-sm">
             © lynettekaluki. All rights reserved.
           </p>
         </div>

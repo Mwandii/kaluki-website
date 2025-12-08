@@ -3,7 +3,7 @@ function About() {
     <section id="about" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2C3E3A] mb-12 md:mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-12 md:mb-16">
           About Me
         </h2>
 
@@ -13,7 +13,7 @@ function About() {
           <div className="w-full  flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <img
-                src="/Images/about.jpg"
+                src="https://images.unsplash.com/photo-1573496799515-eebbb63814f2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBmZW1hbGUlMjB0ZWFjaGVyfGVufDB8fDB8fHww"
                 alt="Developer illustration"
                 className="w-full h-full object-cover rounded-2xl shadow-[0_8px_24px_#6B8E7F26]"
               />
@@ -22,11 +22,11 @@ function About() {
 
           {/* Text Content */}
           <div className="w-full md:w-1/2 flex flex-col space-y-6">
-            <p className="text-base  text-[#5F6C67] leading-relaxed">
+            <p className="text-base  text-gray-500 leading-relaxed">
               Experienced in integrating educational technology and delivering dynamic instruction. Skilled in student engagement, lesson development, and classroom innovation to support productive and inclusive learning.
             </p>
             
-            <p className="text-base text-[#5F6C67] leading-relaxed">
+            <p className="text-base text-gray-500 leading-relaxed">
               I enjoy empowering learners to explore new ideas and develop essential skills for the future. With expertise in modern teaching tools and personalized learning strategies, I help students grow academically and build real-world competencies.
             </p>
 
@@ -36,7 +36,7 @@ function About() {
   href="/cv/Cynthia Mumbua Resume.pdf" 
   download
 >
-              <button className="bg-[#6B8E7F] text-white px-8 py-3 rounded-md font-medium hover:bg-[#4A6B5E] hover:animate-bounce hover:cursor-pointer transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">
+              <button className="bg-black text-white px-8 py-3 rounded-md font-medium hover:bg-gray-700 hover:cursor-pointer transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">
                 <svg 
                   className="w-5 h-5" 
                   fill="none" 

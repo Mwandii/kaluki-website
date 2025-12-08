@@ -23,22 +23,22 @@ useEffect(() => {
         isScrolled ? "bg-white/70 shadow-md" : "bg-white/20 shadow-none"
       }`}>
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-24 py-4">
-        <h1 href="/" className="text-xl md:text-2xl font-bold text-[#1e3a5f] cursor-pointer">Lynette Kaluki</h1>
+        <h1 href="/" className="text-xl md:text-2xl font-bold cursor-pointer">Lynette Kaluki</h1>
         
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-base">
           <li>
-            <a href="#about" className="text-[#2c5282] hover:text-[#4a90e2] transition-colors px-3 py-2">
+            <a href="#about" className="hover:text-gray-600 transition-colors px-3 py-2">
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="text-[#2c5282] hover:text-[#4a90e2] transition-colors px-3 py-2">
+            <a href="#skills" className="hover:text-gray-600 transition-colors px-3 py-2">
               Skills
             </a>
           </li>
           <li>
-            <a href="#contact" className="text-[#2c5282] hover:text-[#4a90e2] transition-colors px-3 py-2">
+            <a href="#contact" className="hover:text-gray-600 transition-colors px-3 py-2">
               Contact Me
             </a>
           </li>
@@ -51,17 +51,17 @@ useEffect(() => {
           aria-label="Toggle menu"
         >
           <span
-            className={`w-6 h-0.5 bg-[#1e3a5f] transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-black transition-all duration-300 ${
               isMenuOpen ? 'rotate-45 translate-y-2' : ''
             }`}
           ></span>
           <span
-            className={`w-6 h-0.5 bg-[#1e3a5f] transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-black transition-all duration-300 ${
               isMenuOpen ? 'opacity-0' : ''
             }`}
           ></span>
           <span
-            className={`w-6 h-0.5 bg-[#1e3a5f] transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-black transition-all duration-300 ${
               isMenuOpen ? '-rotate-45 -translate-y-2' : ''
             }`}
           ></span>
@@ -79,7 +79,7 @@ useEffect(() => {
             <a
               href="#about"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-blue-50 text-[#2c5282] hover:text-[#4a90e2] transition-colors"
+              className="block px-6 py-3 hover:bg-blue-50 text-black hover:text-gray-600 transition-colors"
             >
               About
             </a>
@@ -88,7 +88,7 @@ useEffect(() => {
             <a
               href="#skills"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-blue-50 text-[#2c5282] hover:text-[#4a90e2] transition-colors"
+              className="block px-6 py-3 hover:bg-blue-50 text-black hover:text-gray-600 transition-colors"
             >
               Skills
             </a>
@@ -97,7 +97,7 @@ useEffect(() => {
             <a
               href="#projects"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-blue-50 text-[#2c5282] hover:text-[#4a90e2] transition-colors"
+              className="block px-6 py-3 hover:bg-blue-50 text-black hover:text-gray-600 transition-colors"
             >
               Projects
             </a>
@@ -106,7 +106,7 @@ useEffect(() => {
             <a
               href="#contact"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-blue-50 text-[#2c5282] hover:text-[#4a90e2] transition-colors"
+              className="block px-6 py-3 hover:bg-blue-50 text-black hover:text-gray-600 transition-colors"
             >
               Contact Me
             </a>
