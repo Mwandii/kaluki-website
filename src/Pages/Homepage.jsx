@@ -8,7 +8,7 @@ import Skills from "../components/Skills";
 
 function Homepage () {
     return (
-        <div className="montserrat">
+        <div className="montserrat overflow-x-hidden">
         <Navbar/>
         <Hero/>
         <About/>

@@ -19,10 +19,10 @@ useEffect(() => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-md transition-all duration-300 ${
+    <nav className={`fixed inset-x-0 top-0 w-full z-50 backdrop-blur-md transition-all duration-300 ${
         isScrolled ? "bg-white/70 shadow-md" : "bg-white/20 shadow-none"
       }`}>
-      <div className="flex justify-between items-center px-6 md:px-12 lg:px-24 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-12 py-4">
         <h1 href="/" className="text-xl md:text-2xl font-bold cursor-pointer">Lynette Kaluki</h1>
         
         {/* Desktop Menu */}

@@ -11,7 +11,7 @@ function About() {
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 lg:gap-16">
           {/* Image */}
           <div className="w-full  flex justify-center">
-            <div className="relative w-64 h-64 md:w-120 md:h-80">
+            <div className="relative w-64 h-64 md:w-100 md:h-80 lg:w-120 lg:h-80">
               <img
                 src="https://images.unsplash.com/photo-1573167474706-deb8c54d0bc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJsYWNrJTIwZmVtYWxlJTIwdGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D"
                 alt="Developer illustration"

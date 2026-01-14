@@ -59,7 +59,7 @@ function Hero() {
         {/* Right side: Profile image */}
         <div className="shrink-0">
           <div className="relative">
-            <div className="shadow-md rounded-full w-56 h-56 md:w-92 md:h-92 overflow-hidden">
+            <div className="shadow-md rounded-full w-56 h-56 md:w-82 md:h-82 lg:h-92 lg:w-92 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1633419798503-0b0c628f267c?w=400"
                 alt="Lynette"
