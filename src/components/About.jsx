@@ -33,7 +33,7 @@ function About() {
             {/* CV Download Button */}
             <div className="pt-4">
               <a 
-  href="/cv/Cynthia Mumbua Resume.pdf" 
+  href="" 
   download
 >
               <button className="bg-black text-white px-8 py-3 rounded-md font-medium hover:bg-gray-700 hover:cursor-pointer transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">

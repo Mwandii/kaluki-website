@@ -28,17 +28,17 @@ useEffect(() => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-base">
           <li>
-            <a href="#about" className="hover:text-gray-600 transition-colors px-3 py-2">
+            <a href="#about" className="hover:border-b-2 transition-colors px-3 py-2">
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="hover:text-gray-600 transition-colors px-3 py-2">
+            <a href="#skills" className="hover:border-b-2 transition-colors px-3 py-2">
               Skills
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-gray-600 transition-colors px-3 py-2">
+            <a href="#contact" className="hover:border-b-2 transition-colors px-3 py-2">
               Contact Me
             </a>
           </li>

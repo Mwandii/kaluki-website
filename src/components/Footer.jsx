@@ -31,7 +31,7 @@ function Footer() {
           {/* Right - Social Icons */}
           <div className="flex gap-4 text-xl md:text-2xl">
             <a
-              href="https://www.linkedin.com/in/cynthia-muinde/"
+              href="https://www.linkedin.com/in//"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-white transition-colors"
@@ -40,7 +40,7 @@ function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://x.com/CyntiaMumbua"
+              href="https://x.com/"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-white transition-colors"
@@ -49,7 +49,7 @@ function Footer() {
               <FaTwitter />
             </a>
             <a
-              href="https://github.com/cynmumbua"
+              href="https://github.com"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-white transition-colors"

@@ -9,7 +9,7 @@ function Hero() {
           {/* Social icons - stacked vertically on both mobile and desktop */}
           <div className="flex md:flex-col gap-4 md:gap-4 mb-5 md:mb-6 text-xl md:text-2xl">
             <a
-              href="https://www.linkedin.com/in/cynthia-muinde/"
+              href="https://www.linkedin.com/in//"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-black transition-colors"
@@ -17,7 +17,7 @@ function Hero() {
               <FaLinkedin />
             </a>
             <a
-              href="https://x.com/CyntiaMumbua"
+              href="https://x.com/"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-black transition-colors"
@@ -25,7 +25,7 @@ function Hero() {
               <FaTwitter />
             </a>
             <a
-              href="https://github.com/cynmumbua"
+              href="https://github.com/"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-black transition-colors"
@@ -40,7 +40,7 @@ function Hero() {
               Hi I'm Lynette
             </h1>
             <h2 className="text-sm md:text-base text-gray-700 font-semibold mb-5">
-              Kiswahili Teacher
+              CRE | Kiswahili Teacher
             </h2>
             <p className="text-xs md:text-base text-gray-500 mb-6 leading-relaxed max-w-md">
              I am an experienced educator with a passion for inspiring students and helping them grow academically and personally. I specialize in designing effective learning environments, delivering engaging lessons, and supporting diverse learning needs both in the classroom and beyond. I work across curriculum planning, student assessment, classroom management, and educational technology, and I enjoy integrating digital tools to make learning more interactive and impactful. I love empowering students, improving learning outcomes, and creating a positive, supportive educational experience for every learner.
