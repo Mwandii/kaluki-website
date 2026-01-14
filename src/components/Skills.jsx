@@ -32,7 +32,7 @@ function Services() {
   return (
     <section
       id="services"
-      className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-stone-50"
+      className="py-16 md:py-18 px-6 md:px-12 lg:px-24 bg-stone-50"
     >
       <div className="max-w-4xl mx-auto">
         {/* Section Title */}

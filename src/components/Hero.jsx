@@ -2,7 +2,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 md:px-16 lg:px-24 pt-20 md:pt-16 pb-12 bg-[#F9FAFB] max-w-7xl">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 md:px-16 lg:px-24 pt-20 md:pt-16 pb-2 bg-[#F9FAFB] max-w-7xl">
         
         {/* Left side: Text content and social icons */}
         <div className="flex flex-col items-center md:items-start max-w-lg">
@@ -42,7 +42,7 @@ function Hero() {
             <h2 className="text-sm md:text-base text-gray-700 font-semibold mb-5">
               Kiswahili Teacher
             </h2>
-            <p className="text-sm md:text-base text-gray-500 mb-6 leading-relaxed max-w-md">
+            <p className="text-xs md:text-base text-gray-500 mb-6 leading-relaxed max-w-md">
              I am an experienced educator with a passion for inspiring students and helping them grow academically and personally. I specialize in designing effective learning environments, delivering engaging lessons, and supporting diverse learning needs both in the classroom and beyond. I work across curriculum planning, student assessment, classroom management, and educational technology, and I enjoy integrating digital tools to make learning more interactive and impactful. I love empowering students, improving learning outcomes, and creating a positive, supportive educational experience for every learner.
              </p>
             <button 
