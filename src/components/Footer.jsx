@@ -1,4 +1,4 @@
-    import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+    import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -55,7 +55,7 @@ function Footer() {
               className="text-gray-500 hover:text-white transition-colors"
               aria-label="GitHub"
             >
-              <FaGithub />
+              <FaInstagram />
             </a>
           </div>
         </div>

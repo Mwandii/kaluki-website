@@ -1,6 +1,6 @@
 function ContactMe() {
   return (
-    <section id="contact" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-white">
+    <section id="contact" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-stone-50">
       <div className="max-w-4xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12 md:mb-16">

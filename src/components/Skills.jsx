@@ -1,69 +1,65 @@
 import { useState } from 'react';
 
-function Skills() {
+function Services() {
   const [openSection, setOpenSection] = useState(null);
 
   const toggleSection = (section) => {
     setOpenSection(openSection === section ? null : section);
   };
 
-  const Developer = [
-    { name: 'Grafana', level: 70 },
-    { name: 'Python', level: 85 },
-    { name: 'ELK', level: 90 },
-    { name: 'Cloud Support(AWS & Huawei Cloud)', level: 90 },
-    { name: 'On prem Support', level: 95 },
-    { name: 'Database Management (oracle, PostgreSL, MySQL, myssl, Cassandra, mongoDB)', level: 95 },
-    { name: 'Tibco', level: 95 },
-    { name: 'Openshift', level: 95 },
-    { name: 'Linux', level: 90 },
-    { name: 'Technical Troubleshooting', level: 95 },
+  const onlineSchooling = [
+    'Live online Kiswahili lessons',
+    'Live online CRE lessons',
+    'Homework assistance and follow-up',
+    'Exam revision and learner support',
+    'Flexible scheduling'
   ];
 
-  const TechnicalSupport = [
-    { name: 'HTML & CSS', level: 90 },
-    { name: 'JavaScript', level: 85 },
-    { name: 'React', level: 88 },
-    { name: 'Vue JS', level: 90 },
-    { name: 'Bootstrap', level: 92 },
-    { name: 'Tailwind CSS', level: 87 },
-    { name: 'Node.js', level: 85 },
-    { name: 'Python', level: 85 },
-    { name: 'REST APIs', level: 90 },
+  const employmentKiswahili = [
+    'Available for full-time or part-time roles',
+    'Primary or secondary level',
+    'Kenyan curriculum experience',
+    'Strong language foundation and assessment support'
+  ];
+
+  const employmentCRE = [
+    'Available for full-time or part-time roles',
+    'Faith-based and values-centered teaching',
+    'Curriculum-aligned lesson delivery',
+    'Student mentorship and guidance'
   ];
 
   return (
-    <section id="skills" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-white">
+    <section
+      id="services"
+      className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-stone-50"
+    >
       <div className="max-w-4xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2C3E3A] mb-3">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-3">
           Services
         </h2>
-        <p className="text-center text-[#5F6C67] mb-12 md:mb-16">
-          What I Offer
+        <p className="text-center text-[#2C3E3A] mb-4">
+          Flexible teaching services for students and institutions
+        </p>
+        <p className="text-center text-sm italic text-gray-500 leading-relaxed mb-12 md:mb-16">
+          *Malezi bora ya mwanafunzi*
         </p>
 
-        {/* Skills Container */}
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8">
-          {/* Frontend Developer */}
-          <div className="">
+        {/* Services Container */}
+        <div className="flex flex-col gap-6 md:gap-8">
+          {/* Online Schooling */}
+          <div className=''>
             <button
-              onClick={() => toggleSection('frontend')}
-              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 hover:cursor-pointer transition-colors"
+              onClick={() => toggleSection('online')}
+              className="w-full flex items-center justify-between py-6 px-10 bg-gray-50 hover:bg-gray-100 hover:cursor-pointer hover:rounded-full transition-colors"
             >
-              <div className="flex items-center gap-4">
-                <div className="text-2xl md:text-3xl text-[#6B8E7F]">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                  </svg>
-                </div>
-                <span className="text-lg md:text-xl font-semibold text-[#2C3E3A]">
-                  Technical Support
-                </span>
-              </div>
+              <span className="text-lg md:text-xl font-semibold text-black">
+                Online Schooling
+              </span>
               <svg
-                className={`w-6 h-6 text-[#6B8E7F] transition-transform ${
-                  openSection === 'frontend' ? 'rotate-180' : ''
+                className={`w-6 h-6 text-[#2C3E3A] transition-transform ${
+                  openSection === 'online' ? 'rotate-180' : ''
                 }`}
                 fill="none"
                 stroke="currentColor"
@@ -73,50 +69,33 @@ function Skills() {
               </svg>
             </button>
 
-            {/* Frontend Skills Dropdown */}
             <div
               className={`overflow-hidden transition-all duration-300 ${
-                openSection === 'frontend' ? 'max-h-96 overflow-y-auto' : 'max-h-0'
+                openSection === 'online' ? 'max-h-80' : 'max-h-0'
               }`}
             >
-              <div className="px-6 pb-6 flex flex-col gap-4">
-                {Developer.map((skill, index) => (
-                  <div key={index}>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm font-medium text-[#2C3E3A]">{skill.name}</span>
-                      <span className="text-sm text-[#5F6C67]">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-[#E8EDE9] rounded-full h-2">
-                      <div
-                        className="bg-[#6B8E7F] h-2 rounded-full transition-all duration-500"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
+              <ul className="px-6 pb-6 space-y-3 text-[#5F6C67]">
+                {onlineSchooling.map((item, index) => (
+                  <li key={index} className="text-sm md:text-base">
+                    • {item}
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           </div>
 
-          {/* Technical Support */}
-          <div className="">
+          {/* Employment – Kiswahili */}
+          <div>
             <button
-              onClick={() => toggleSection('backend')}
-              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 hover:cursor-pointer transition-colors"
+              onClick={() => toggleSection('kiswahili')}
+              className="w-full flex items-center justify-between py-6 px-10 bg-gray-50 hover:bg-gray-100 hover:cursor-pointer hover:rounded-full transition-colors"
             >
-              <div className="flex items-center gap-4">
-                <div className="text-2xl md:text-3xl text-[#6B8E7F]">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
-                  </svg>
-                </div>
-                <span className="text-lg md:text-xl font-semibold text-[#2C3E3A]">
-                  Developer
-                </span>
-              </div>
+              <span className="text-lg md:text-xl font-semibold text-black">
+                Employment – Kiswahili Teacher
+              </span>
               <svg
-                className={`w-6 h-6 text-[#6B8E7F] transition-transform ${
-                  openSection === 'backend' ? 'rotate-180' : ''
+                className={`w-6 h-6 text-[#2C3E3A] transition-transform ${
+                  openSection === 'kiswahili' ? 'rotate-180' : ''
                 }`}
                 fill="none"
                 stroke="currentColor"
@@ -126,34 +105,65 @@ function Skills() {
               </svg>
             </button>
 
-            {/* Backend Skills Dropdown */}
             <div
               className={`overflow-hidden transition-all duration-300 ${
-                openSection === 'backend' ? 'max-h-96 overflow-y-auto' : 'max-h-0'
+                openSection === 'kiswahili' ? 'max-h-80' : 'max-h-0'
               }`}
             >
-              <div className="px-6 pb-6 flex flex-col gap-4">
-                {TechnicalSupport.map((skill, index) => (
-                  <div key={index}>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm font-medium text-[#2C3E3A]">{skill.name}</span>
-                      <span className="text-sm text-[#5F6C67]">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-[#E8EDE9] rounded-full h-2">
-                      <div
-                        className="bg-[#6B8E7F] h-2 rounded-full transition-all duration-500"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
+              <ul className="px-6 pb-6 space-y-3 text-[#5F6C67]">
+                {employmentKiswahili.map((item, index) => (
+                  <li key={index} className="text-sm md:text-base">
+                    • {item}
+                  </li>
                 ))}
-              </div>
+              </ul>
+            </div>
+          </div>
+
+          {/* Employment – CRE */}
+          <div>
+            <button
+              onClick={() => toggleSection('cre')}
+              className="w-full flex items-center justify-between py-6 px-10 bg-gray-50 hover:bg-gray-100 hover:cursor-pointer hover:rounded-full transition-colors"
+            >
+              <span className="text-lg md:text-xl font-semibold text-black">
+                Employment – CRE Teacher
+              </span>
+              <svg
+                className={`w-6 h-6 text-[#2C3E3A] transition-transform ${
+                  openSection === 'cre' ? 'rotate-180' : ''
+                }`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            <div
+              className={`overflow-hidden transition-all duration-300 ${
+                openSection === 'cre' ? 'max-h-80' : 'max-h-0'
+              }`}
+            >
+              <ul className="px-6 pb-6 space-y-3 text-[#5F6C67]">
+                {employmentCRE.map((item, index) => (
+                  <li key={index} className="text-sm md:text-base">
+                    • {item}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
+
+        {/* Small note */}
+        <p className="text-center text-sm text-gray-500 mt-12 italic">
+          Available for either subject or both, depending on your needs.
+        </p>
       </div>
     </section>
   );
 }
 
-export default Skills;
+export default Services;

@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -30,7 +30,7 @@ function Hero() {
               rel="noreferrer"
               className="text-gray-500 hover:text-black transition-colors"
             >
-              <FaGithub />
+              <FaInstagram />
             </a>
           </div>
 
@@ -59,11 +59,11 @@ function Hero() {
         {/* Right side: Profile image */}
         <div className="shrink-0">
           <div className="relative">
-            <div className="bg-black shadow-[0_8px_24px_#00000025] rounded-full w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 overflow-hidden">
+            <div className="shadow-md rounded-full w-56 h-56 md:w-92 md:h-92 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1633419798503-0b0c628f267c?w=400"
                 alt="Lynette"
-                className="w-full h-full object-cover"
+                className="object-cover"
               />
             </div>
           </div>
