@@ -47,7 +47,7 @@ function ContactMe() {
                 href="mailto:muindetuva@gmail.com" 
                 className="text-base text-gray-500 break-all"
               >
-                lynettekaluki@gmail.com
+                linetkwavinya@gmail.com
               </a>
             </div>
           </div>
