@@ -1,4 +1,4 @@
-    import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+    import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -31,7 +31,7 @@ function Footer() {
           {/* Right - Social Icons */}
           <div className="flex gap-4 text-xl md:text-2xl">
             <a
-              href="https://www.linkedin.com/in//"
+              href="https://www.linkedin.com/in/linet-wavinya-44566b297/"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-white transition-colors"
@@ -40,22 +40,22 @@ function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://x.com/"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=linetkwavinya@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-white transition-colors"
               aria-label="Twitter"
             >
-              <FaTwitter />
+              <FaEnvelope />
             </a>
             <a
-              href="https://github.com"
+              href="https://wa.me/254740962074"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-white transition-colors"
               aria-label="GitHub"
             >
-              <FaInstagram />
+              <FaWhatsapp />
             </a>
           </div>
         </div>
