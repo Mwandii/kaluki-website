@@ -62,7 +62,7 @@ function Education() {
   {/* Center content */}
   <div className="text-center">
     <h3 className="text-2xl font-semibold tracking-tight text-black">
-      Master of Arts
+      Masters in Education
     </h3>
 
     <div className="w-12 h-0.5 bg-black/20 rounded-full mx-auto my-3" />
@@ -120,16 +120,6 @@ function Education() {
       <p className="text-xs text-gray-500">Level</p>
     </div>
   </div>
-
-  {/* Certificate action */}
-  <a
-    href="/certificates/masters.pdf"
-    download
-    className="mt-4 text-xs text-black underline underline-offset-4 text-center 
-               hover:text-gray-600 transition"
-  >
-    Download Master’s Certificate
-  </a>
 </div>
 
             </div>
@@ -164,7 +154,7 @@ function Education() {
   {/* Center content */}
   <div className="text-center">
     <h3 className="text-2xl font-semibold tracking-tight text-black">
-      Bachelor of Arts
+      Bachelor of Education
     </h3>
 
     <div className="w-12 h-0.5 bg-black/20 rounded-full mx-auto my-3" />
@@ -222,16 +212,6 @@ function Education() {
       <p className="text-xs text-gray-500">Level</p>
     </div>
   </div>
-
-  {/* Certificate action */}
-  <a
-    href="/certificates/bachelors.pdf"
-    download
-    className="mt-4 text-xs text-black underline underline-offset-4 text-center 
-               hover:text-gray-600 transition"
-  >
-    Download Bachelor’s Certificate
-  </a>
 </div>
 
             </div>

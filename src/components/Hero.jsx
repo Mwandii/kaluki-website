@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -9,7 +9,7 @@ function Hero() {
           {/* Social icons - stacked vertically on both mobile and desktop */}
           <div className="flex md:flex-col gap-4 md:gap-4 mb-5 md:mb-6 text-xl md:text-2xl">
             <a
-              href="https://www.linkedin.com/in//"
+              href="https://www.linkedin.com/in/linet-wavinya-44566b297/"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-black transition-colors"
@@ -17,30 +17,30 @@ function Hero() {
               <FaLinkedin />
             </a>
             <a
-              href="https://x.com/"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=linetkwavinya@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-black transition-colors"
             >
-              <FaTwitter />
+              <FaEnvelope />
             </a>
             <a
-              href="https://github.com/"
+              href="https://wa.me/254740962074"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-black transition-colors"
             >
-              <FaInstagram />
+              <FaWhatsapp />
             </a>
           </div>
 
           {/* Text content */}
           <div className="text-center md:text-left">
             <h1 className="text-3xl md:text-5xl font-bold mb-2 text-black">
-              Hi I'm Lynette
+              Hi I'm Linet
             </h1>
             <h2 className="text-sm md:text-base text-gray-700 font-semibold mb-5">
-              CRE | Kiswahili Teacher
+              Kiswahili | Fasihi | CRE Teacher
             </h2>
             <p className="text-xs md:text-base text-gray-500 mb-6 leading-relaxed max-w-md">
              I am an experienced educator with a passion for inspiring students and helping them grow academically and personally. I specialize in designing effective learning environments, delivering engaging lessons, and supporting diverse learning needs both in the classroom and beyond. I work across curriculum planning, student assessment, classroom management, and educational technology, and I enjoy integrating digital tools to make learning more interactive and impactful. I love empowering students, improving learning outcomes, and creating a positive, supportive educational experience for every learner.
