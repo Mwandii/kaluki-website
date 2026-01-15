@@ -16,9 +16,9 @@ function About() {
           <div className="w-full  flex justify-center">
             <div className="relative w-64 h-64 md:w-100 md:h-80 lg:w-120 lg:h-80">
               <img
-                src="https://images.unsplash.com/photo-1573167474706-deb8c54d0bc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJsYWNrJTIwZmVtYWxlJTIwdGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D"
+                src="/Images/linet1.jpeg"
                 alt="Developer illustration"
-                className="w-full h-full object-cover rounded-2xl shadow-[0_8px_24px_#6B8E7F26]"
+                className="h-full w-full object-cover object-[50%_15%] rounded-2xl shadow-[0_8px_24px_#6B8E7F26]"
               />
             </div>
           </div>

@@ -61,7 +61,7 @@ function Hero() {
           <div className="relative">
             <div className="shadow-md rounded-full w-56 h-56 md:w-82 md:h-82 lg:h-92 lg:w-92 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1633419798503-0b0c628f267c?w=400"
+                src="/Images/linet2.jpeg"
                 alt="Lynette"
                 className="object-cover"
               />
